@@ -3,7 +3,7 @@ import Combine
 import CoreBluetooth
 import UIKit
 
-/// Connexion BLE avec l'Arduino "Mini Doom" et envoi de l'état de la manette
+/// Connexion BLE avec l'Arduino "Mini Doom" et envoi de l'état de la manette.
 final class ManetteBLE: NSObject, ObservableObject {
 
     // UUID identiques à ceux du sketch Arduino
